@@ -1,0 +1,23 @@
+
+# Customer Churn Prediction - Streamlit Dashboard
+
+An interactive Power BI-style dashboard to explore and predict customer churn.
+
+## Features
+- KPI metrics for total customers, churn rate, retention rate
+- Interactive charts: churn distribution, contract type vs churn, monthly charges
+- Upload custom CSV data
+- Train a Random Forest model on the fly
+- Download predictions
+
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Deploy on Streamlit Cloud
+1. Push this folder to a GitHub repository.
+2. Go to https://streamlit.io/cloud and create a new app.
+3. Select your repo and `app.py` as the main file.
+4. Deploy and share your public link.
